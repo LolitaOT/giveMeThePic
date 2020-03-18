@@ -4,7 +4,9 @@
   "description": "通过接口随机获取一张图片",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js",
+    "start": "index ./index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,14 @@
   "bugs": {
     "url": "https://github.com/LolitaOT/giveMeThePic/issues"
   },
-  "homepage": "https://github.com/LolitaOT/giveMeThePic#readme"
+  "homepage": "https://github.com/LolitaOT/giveMeThePic#readme",
+  "dependencies": {
+    "ali-oss": "^6.5.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.2",
+    "redis": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
 }
