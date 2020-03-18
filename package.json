@@ -1,0 +1,19 @@
+{
+  "name": "givemethepic",
+  "version": "1.0.0",
+  "description": "通过接口随机获取一张图片",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LolitaOT/giveMeThePic.git"
+  },
+  "author": "LolitaOT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LolitaOT/giveMeThePic/issues"
+  },
+  "homepage": "https://github.com/LolitaOT/giveMeThePic#readme"
+}
