@@ -20,9 +20,12 @@
   "homepage": "https://github.com/LolitaOT/giveMeThePic#readme",
   "dependencies": {
     "ali-oss": "^6.5.1",
+    "download": "^7.1.0",
     "mysql": "^2.18.1",
+    "mz": "^2.7.0",
     "nodemon": "^2.0.2",
-    "redis": "^3.0.2"
+    "redis": "^3.0.2",
+    "superagent": "^5.2.2"
   },
   "devDependencies": {
     "eslint": "^6.8.0"
